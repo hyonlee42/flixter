@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+gem 'figaro'
 gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
 gem 'carrierwave-aws'
 gem "mini_magick"
@@ -72,6 +73,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'stripe'
 gem 'ranked-model'
+gem 'font-awesome-rails'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
