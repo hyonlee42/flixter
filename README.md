@@ -1,24 +1,19 @@
-# README
+# Table of Contents
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-Things you may want to cover:
+# General Info
+This project is a video streaming platform set up as teachers making videos for students to learn how to code, with credit card payment capabilities 
 
-* Ruby version
+# Technologies
+Project is created with: 
+* Ruby on rails
+* Heroku
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Setup
+To run this project, go to [the heroku website](https://flixter-hyon-lee.herokuapp.com/) or run on localhost with 
+```
+$ rails s
+```
